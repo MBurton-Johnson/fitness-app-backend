@@ -17,7 +17,6 @@ app.use('/calendar', calendarRouter)
 
 mongoose.connect(process.env.DATABASE_URL);
 
-
 const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
